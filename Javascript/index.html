@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+<script>
+
+
+$(document).ready(function(){
+  $("#red").mouseenter(function(){
+    alert("you have chosen the color red!");
+    $(this).css("background-color", "red");
+  });
+  $("#blue").mouseenter(function(){
+    alert("you have chosen the color blue!");
+    $(this).css("background-color", "blue");
+
+  });
+  $("#green").mouseenter(function(){
+    alert("you have chosen the color green!");
+    $(this).css("background-color", "green");
+    
+  });
+});
+</script>
+</head>
+<body>
+
+<p id="red">Red</p>
+<p id="blue">Blue</p>
+<p id="green">Green</p>
+
+</body>
+</html>
